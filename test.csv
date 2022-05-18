@@ -1,18 +1,2 @@
-﻿Interface;Devices in Chengdu;Status PG1;Status PG2
-mPCIe;HuaWei_3/4G_ME909s_821;already tested, work fine;already tested, work fine
-mPCIe;Telit_3/4G_he910-D;already tested, work fine;already tested, work fine
-mPCIe;Qualcomm_4G_mc7304;already tested, work fine;already tested, work fine
-mPCIe;ZTE TDD LET me3760v2;failed;
-mPCIe;WIFI_BCM9432;already tested, work fine;
-mPCIe;WIFI_BCM43299;already tested, work fine;
-mPCIe;WIFI_Intel_N135;already tested, work fine;
-mPCIe;WIFI_AR9462;already tested, work fine;
-mPCIe;WIFI_Intel_6235;already tested, work fine;
-mPCIe;7260 Wifi;already tested, work fine;
-mPCIe;BT_Intel_6235;already tested, work fine;
-mPCIe;SSD_LEXIANGJIA;already tested, work fine;
-mPCIe;Adapter_mPCIeToUSB_Wifi;already tested, work fine;
-mPCIe;Adapter_mPCIeToUSB_Stick;already tested, work fine;
-mPCIe;huawei909s-120 v2;already tested, work fine;
-mPCIe;Quectel EC20;already tested, work fine;
-mPCIe;4G SIM7600CE;already tested, work fine;
+Interface,Devices in Chengdu,Status PG1,Status PG2
+mPCIe,HuaWei_3/4G_ME909s_821,already tested - work fine,already tested- work fine
