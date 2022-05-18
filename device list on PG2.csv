@@ -1,0 +1,20 @@
+﻿Interface;Devices in Chengdu;status;notes
+HuaWei_3/4G_ME909s_821;already tested, work fine;;
+Telit_3/4G_he910-D;already tested, work fine;;
+Qualcomm_4G_mc7304;already tested, work fine;;
+WIFI_BCM9432;already tested, work fine;;
+WIFI_BCM43299;already tested, work fine;;
+WIFI_Intel_N135;already tested, work fine;;
+WIFI_AR9462;already tested, work fine;;
+WIFI_Intel_6235;already tested, work fine;;
+7260 Wifi;already tested, work fine;;
+BT_Intel_6235;already tested, work fine;;
+SSD_LEXIANGJIA; not test;;
+Adapter_mPCIeToUSB_Wifi;already tested, work fine;;
+Adapter_mPCIeToUSB_Stick;already tested, work fine;;
+huawei909s-120 v2;already tested, work fine;;
+4G sim7600ce;already tested, work fine;;
+WIFI_Intel_AC9260 NGW;already tested, work fine;;
+WIFI_m.2_ax200ngw;already tested, work fine;;
+WIFI_m.2_ax210ngw;failed;;
+Qualcomm_4G_mc7403;failed, not supported;;
