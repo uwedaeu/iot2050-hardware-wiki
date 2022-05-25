@@ -32,22 +32,41 @@ The following tables show the support of different hardware at the different int
 
 ### **Support of USB:**
 
-| Devices in Chengdu                                                                                                                                                                                                                              | status                    |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| USB WIFI EP-N8508GS                                                                                                                                                                                                                             | already tested, work fine |
-| USB WIFI EW-7811Un                                                                                                                                                                                                                              | already tested, work fine |
-| USB WIFI\_EP-MS1558                                                                                                                                                                                                                             | already tested, work fine |
-| USB sound card(Plantronics 300DA)                                                                                                                                                                                                               | already tested, work fine |
-| USB->RS232 adapter; USB->RJ45 adapter                                                                                                                                                                                                           | will be test              |
-| USB Mouse\_Logitech\_M235; USB Wire\_Mouse\_DELL\_MS1161; USB Wireless\_Mouse\_Logitech\_M150; USB Wireless\_Mouse\_RAPOO\_M10;                                                                                                                 | already tested, work fine |
-| USB Keyboard\_Logitech\_K120 ; USB\_Wireless\_Keyboard\_RAPOO\_E1050; USB\_Wireless\_Keyboard\_Logitech\_K220;                                                                                                                                  | already tested, work fine |
-| USB Scanner                                                                                                                                                                                                                                     | already tested, work fine |
-| USB CD/DVD : e.g. ASUS\_SDR-08B1-UA                                                                                                                                                                                                             | already tested, work fine |
-| USB SanDisk 2.0  32G ; USB AIGO  2.0  32G; USB TOSHIBA 2.0 32G ; USB HUB 2.0 ; USB 2.0 Reader ;                                                                                                                                                 | already tested, work fine |
-| USB SanDisk 3.0 32G/64G; USB Kingston 3.0 16G/64G/128G; USB HP 3.1 64G ; USB TOSHIBA 3.0 128G; USB AIGO 3.0 32G ; USB SanDisk 3.1 256G ; USB SAMSUNG 3.0 32G ; USB HDD 2T ; USB HUB 3.0 ; USB HP 3.0 32G; USB BANQ 3.0 32G/64G; USB 3.0 Reader; | already tested, work fine |
-| USB Temperature Sensor                                                                                                                                                                                                                          | will be test              |
-| USB Bluetooth: ORICO (BT4.0); ORICO(BTA-403); PHILIPS(CSR8510); CSR4.0 Dongle                                                                                                                                                                   | will be test              |
+#### **Support of USB on PG1:**
 
 ### **Support of Arduino:**
 
+#### **Support of Arduino on PG1:**
+
+|List by Volker                                         |Devices in Chengdu                           |status                      |notes                                                                         |
+|-------------------------------------------------------|---------------------------------------------|----------------------------|------------------------------------------------------------------------------|
+|Input / Output Module                                  |RS232 Shield                                 |already tested, have issue. |because of Arduino UART function  have issue, will be retested after bug fixed|
+|Input Module Sink / Source                             |LEDs Shield                                  |                            |from FL, but no such shield                                                   |
+|Lora Shield FlexSensor-045AR™ LoRa end device          |Reset button Shield                          |                            |from FL, but no such shield                                                   |
+|shield for Masterdrive connection                      |Input / Output Module                        |already tested, work fine   |                                                                              |
+|shields for weighting                                  |Input Module Sink / Source                   |already tested, work fine   |                                                                              |
+|IKHDS Powershield IOT2000                              |Lora Shield FlexSensor-045AR™ LoRa end device|will be test, wait equipment|volker will delivery to chengdu                                               |
+|Velleman Shield VMA05 I/O Shield                       |shield for Masterdrive connection            |will be test, wait equipment|Zhao Hui will ask from NanJing                                                |
+|Arduino Motor Shield Rev 3 (A000079)                   |shields for weighting                        |will be test, wait equipment|Zhao Hui will ask from DaLian                                                 |
+|Arduino XBee Shield for Zigbee (A000021)               |IKHDS Powershield IOT2000                    |will be test, wait equipment|volker will delivery to chengdu                                               |
+|Arduino Wireless Shield with SD socket (A000065)       |RS485 Shield                                 |                            |from FL, but no such shield                                                   |
+|Arduino Wireless Shield (A000064)                      |Arduino GSM shield                           |                            |lack of Arduino IDE, can't use it.                                            |
+|TinkerKit Sensor shield (T020010)                      |Arduino Ethernet shield                      |                            |lack of Arduino IDE, can't use it.                                            |
+|Arduino Ethernet shield 2 without POE (A000024)        |Arduino wireless shield                      |                            |lack of Arduino IDE, can't use it.                                            |
+|Annikken Andee U - uses ATMEL specific funcions for SPI|Arduino Camera shield                        |                            |lack of Arduino IDE, can't use it.                                            |
+|Arduino Wi-Fi Shield (A000058)                         |Arduino YUN shield                           |                            |lack of Arduino IDE, can't use it.                                            |
+|GSM one antenna (A000043)                              |Zigbee shield                                |                            |lack of Arduino IDE, can't use it.                                            |
+|                                                       |base shield                                  |will be test                |                                                                              |
+
 ### **Support of Serial:**
+
+#### **Support of Serial on PG1:**
+
+|List by Volker                                                 |Devices in Chengdu                                             |status                   |
+|---------------------------------------------------------------|---------------------------------------------------------------|-------------------------|
+|direct communication to other IPC (e.g. IPC327) RS232 and RS485|printer                                                        |will be test             |
+|Sensors with RS485 and most modbus input                       |barcode scanner                                                |will be test             |
+|                                                               |direct communication to other IPC (e.g. IPC327) RS232 and RS485|already tested, work fine|
+|                                                               |Temperature Sensors with RS485 (Modbus-RTU)                    |already tested, work fine|
+|                                                               |RS232->RS485 Adapter                                           |already tested, work fine|
+|                                                               |RS232->RS422 Adapter                                           |already tested, work fine|
