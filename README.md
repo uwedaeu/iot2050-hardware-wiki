@@ -8,7 +8,7 @@ The following tables show the support of different hardware at the different int
 
 | Devices in Chengdu         | PG1                       | PG2                       |
 | -------------------------- | ------------------------- | ------------------------- |
-| HuaWei\_3/4G\_ME909s\_821  | already tested, work fine | already tested, work fine |
+| HuaWei\_3/4G\_ME909s\_821  | &#10003; | already tested, work fine |
 | Telit\_3/4G\_he910-D       | already tested, work fine | already tested, work fine |
 | Qualcomm\_4G\_mc7304       | already tested, work fine | already tested, work fine |
 | WIFI\_BCM9432              | already tested, work fine | already tested, work fine |
@@ -30,7 +30,33 @@ The following tables show the support of different hardware at the different int
 | ZTE TDD LET me3760v2       | failed                    |                           |
 | Quectel EC20               | already tested, work fine |                           |
 
+| Devices in Chengdu         | PG1      | PG2       |
+| -------------------------- | -------- | --------- |
+| HuaWei\_3/4G\_ME909s\_821  | &#10003; | &#10003;  |
+| Telit\_3/4G\_he910-D       | &#10003; | &#10003;  |
+| Qualcomm\_4G\_mc7304       | &#10003; | &#10003;  |
+| WIFI\_BCM9432              | &#10003; | &#10003;  |
+| WIFI\_BCM43299             | &#10003; | &#10003;  |
+| WIFI\_Intel\_N135          | &#10003; | &#10003;  |
+| WIFI\_AR9462               | &#10003; | &#10003;  |
+| WIFI\_Intel\_6235          | &#10003; | &#10003;  |
+| 7260 Wifi                  | &#10003; | &#10003;  |
+| BT\_Intel\_6235            | &#10003; | &#10003;  |
+| SSD\_LEXIANGJIA            | &#10003; |  not test |
+| Adapter\_mPCIeToUSB\_Wifi  | &#10003; | &#10003;  |
+| Adapter\_mPCIeToUSB\_Stick | &#10003; | &#10003;  |
+| huawei909s-120 v2          | &#10003; | &#10003;  |
+| 4G SIM7600CE               | &#10003; | &#10003;  |
+| WIFI\_Intel\_AC9260 NGW    |          | &#10003;  |
+| WIFI\_m.2\_ax200ngw        |          | &#10003;  |
+| WIFI\_m.2\_ax210ngw        |          | X         |
+| Qualcomm\_4G\_mc7403       |          | X         |
+| ZTE TDD LET me3760v2       | X        |           |
+| Quectel EC20               | &#10003; |           |
+
 ### **Support of USB:**
+
+&#10003;
 
 #### **Support of USB on PG1:**
 
