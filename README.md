@@ -6,59 +6,80 @@ The following tables show the support of different hardware at the different int
 
 ### **Support of mPCIe:**
 
-| Devices in Chengdu         | PG1                       | PG2                       |
-| -------------------------- | ------------------------- | ------------------------- |
-| HuaWei\_3/4G\_ME909s\_821  | &#10003; | already tested, work fine |
-| Telit\_3/4G\_he910-D       | already tested, work fine | already tested, work fine |
-| Qualcomm\_4G\_mc7304       | already tested, work fine | already tested, work fine |
-| WIFI\_BCM9432              | already tested, work fine | already tested, work fine |
-| WIFI\_BCM43299             | already tested, work fine | already tested, work fine |
-| WIFI\_Intel\_N135          | already tested, work fine | already tested, work fine |
-| WIFI\_AR9462               | already tested, work fine | already tested, work fine |
-| WIFI\_Intel\_6235          | already tested, work fine | already tested, work fine |
-| 7260 Wifi                  | already tested, work fine | already tested, work fine |
-| BT\_Intel\_6235            | already tested, work fine | already tested, work fine |
-| SSD\_LEXIANGJIA            | already tested, work fine |  not test                 |
-| Adapter\_mPCIeToUSB\_Wifi  | already tested, work fine | already tested, work fine |
-| Adapter\_mPCIeToUSB\_Stick | already tested, work fine | already tested, work fine |
-| huawei909s-120 v2          | already tested, work fine | already tested, work fine |
-| 4G SIM7600CE               | already tested, work fine | already tested, work fine |
-| WIFI\_Intel\_AC9260 NGW    |                           | already tested, work fine |
-| WIFI\_m.2\_ax200ngw        |                           | already tested, work fine |
-| WIFI\_m.2\_ax210ngw        |                           | failed                    |
-| Qualcomm\_4G\_mc7403       |                           | failed, not supported     |
-| ZTE TDD LET me3760v2       | failed                    |                           |
-| Quectel EC20               | already tested, work fine |                           |
-
-| Devices in Chengdu         | PG1      | PG2       |
-| -------------------------- | -------- | --------- |
-| HuaWei\_3/4G\_ME909s\_821  | &#10003; | &#10003;  |
-| Telit\_3/4G\_he910-D       | &#10003; | &#10003;  |
-| Qualcomm\_4G\_mc7304       | &#10003; | &#10003;  |
-| WIFI\_BCM9432              | &#10003; | &#10003;  |
-| WIFI\_BCM43299             | &#10003; | &#10003;  |
-| WIFI\_Intel\_N135          | &#10003; | &#10003;  |
-| WIFI\_AR9462               | &#10003; | &#10003;  |
-| WIFI\_Intel\_6235          | &#10003; | &#10003;  |
-| 7260 Wifi                  | &#10003; | &#10003;  |
-| BT\_Intel\_6235            | &#10003; | &#10003;  |
-| SSD\_LEXIANGJIA            | &#10003; |  not test |
-| Adapter\_mPCIeToUSB\_Wifi  | &#10003; | &#10003;  |
-| Adapter\_mPCIeToUSB\_Stick | &#10003; | &#10003;  |
-| huawei909s-120 v2          | &#10003; | &#10003;  |
-| 4G SIM7600CE               | &#10003; | &#10003;  |
-| WIFI\_Intel\_AC9260 NGW    |          | &#10003;  |
-| WIFI\_m.2\_ax200ngw        |          | &#10003;  |
-| WIFI\_m.2\_ax210ngw        |          | X         |
-| Qualcomm\_4G\_mc7403       |          | X         |
-| ZTE TDD LET me3760v2       | X        |           |
-| Quectel EC20               | &#10003; |           |
+| Hardware  | Device                     | PG1      | PG2       |
+| --------- | -------------------------- | -------- | --------- |
+| 3G/4G     | HuaWei\_3/4G\_ME909s\_821  | &#10003; | &#10003;  |
+| 3G/4G     | Telit\_3/4G\_he910-D       | &#10003; | &#10003;  |
+| 3G/4G     | Qualcomm\_4G\_mc7304       | &#10003; | &#10003;  |
+| 3G/4G     | huawei909s-120 v2          | &#10003; | &#10003;  |
+| 3G/4G     | 4G SIM7600CE               | &#10003; | &#10003;  |
+| 3G/4G     | Qualcomm\_4G\_mc7403       |          | X         |
+| 3G/4G     | ZTE FDD LTE me3760v2       | X        |           |
+| 3G/4G     | Quectel EC20               | &#10003; |           |
+| Bluetooth | BT\_Intel\_6235            | &#10003; | &#10003;  |
+| SSD       | SSD\_LEXIANGJIA            | &#10003; |  not test |
+| WIFI      | WIFI\_BCM9432              | &#10003; | &#10003;  |
+| WIFI      | WIFI\_BCM43299             | &#10003; | &#10003;  |
+| WIFI      | WIFI\_Intel\_N135          | &#10003; | &#10003;  |
+| WIFI      | WIFI\_AR9462               | &#10003; | &#10003;  |
+| WIFI      | WIFI\_Intel\_6235          | &#10003; | &#10003;  |
+| WIFI      | 7260 Wifi                  | &#10003; | &#10003;  |
+| WIFI      | WIFI\_Intel\_AC9260 NGW    |          | &#10003;  |
+| WIFI      | WIFI\_m.2\_ax200ngw        |          | &#10003;  |
+| WIFI      | WIFI\_m.2\_ax210ngw        |          | X         |
+|           | Adapter\_mPCIeToUSB\_Wifi  | &#10003; | &#10003;  |
+|           | Adapter\_mPCIeToUSB\_Stick | &#10003; | &#10003;  |
 
 ### **Support of USB:**
 
-&#10003;
-
-#### **Support of USB on PG1:**
+| Hardware       | Device                                  | PG1          | PG2      |
+| -------------- | --------------------------------------- | ------------ | -------- |
+| USB Adapter    | USB->RS232 adapter                      | will be test |          |
+| USB Adapter    | USB->RJ45 adapter                       | will be test | &#10003; |
+| USB BT         | CSR4.0 Dongle                           | will be test | &#10003; |
+| USB BT         | ORICO (BT4.0)                           | &#10003;     |          |
+| USB BT         | ORICO(BTA-403)                          | &#10003;     |          |
+| USB BT         | PHILIPS(CSR8510)                        | will be test |          |
+| USB CD/DVD     | ASUS\_SDR-08B1-UA                       | &#10003;     | &#10003; |
+| USB Hub        | USB HUB 2.0                             | &#10003;     |          |
+| USB HUB        | USB HUB 3.0                             | &#10003;     |          |
+| USB Keyboard   | USB\_Wireless\_Keyboard\_Logitech\_K220 | &#10003;     |          |
+| USB Keyboard   | USB Keyboard\_Logitech\_K120            | &#10003;     |          |
+| USB Keyboard   | USB\_Wireless\_Keyboard\_RAPOO\_E1050   | &#10003;     |          |
+| USB Mosue      | USB Wireless\_Mouse\_Logitech\_M150     | &#10003;     |          |
+| USB Mouse      | USB Wireless\_Mouse\_RAPOO\_M10         | &#10003;     |          |
+| USB Mouse      | USB Mouse\_Logitech\_M235               | &#10003;     |          |
+| USB Mouse      | USB Wire\_Mouse\_DELL\_MS1161           | &#10003;     |          |
+| USB Reader     |  USB 2.0 Reader                         | &#10003;     |          |
+| USB Reader     | USB 3.0 Reader                          | &#10003;     | &#10003; |
+| USB Scanner    | USB Scanner                             | &#10003;     | &#10003; |
+| USB Scanner    | Barcode Scanner                         |              | &#10003; |
+| USB Sensor     | USB Temperature Sensor                  | will be test |          |
+| USB Sound Card | Plantronics 300DA                       | &#10003;     |          |
+| USB Storage    | USB BANQ 3.0 32G/64G                    | &#10003;     | &#10003; |
+| USB Storage    | USB SanDisk 2.0  32G                    | &#10003;     | &#10003; |
+| USB Storage    | USB AIGO  2.0  32G                      | &#10003;     |          |
+| USB Storage    | USB TOSHIBA 2.0 32G                     | &#10003;     |          |
+| USB Storage    | USB SanDisk 3.0 32G/64G                 | &#10003;     | &#10003; |
+| USB Storage    | USB Kingston 3.0 16G/64G/128G           | &#10003;     | &#10003; |
+| USB Storage    | USB HP 3.1 64G                          | &#10003;     | &#10003; |
+| USB Storage    | USB TOSHIBA 3.0 128G                    | &#10003;     | &#10003; |
+| USB Storage    | USB AIGO 3.0 32G                        | &#10003;     | &#10003; |
+| USB Storage    | USB SanDisk 3.1 256G                    | &#10003;     |          |
+| USB Storage    | USB SAMSUNG 3.0 32G                     | &#10003;     | &#10003; |
+| USB Storage    | USB HDD 2T                              | &#10003;     |          |
+| USB Storage    | USB HP 3.0 32G                          | &#10003;     |          |
+| USB Storage    | USB Kingston 2.0 16G/32G                |              | &#10003; |
+| USB Storage    | USB BANQ2.0 16G                         |              | &#10003; |
+| USB Storage    | USB HDD TOSHIBA 2T                      |              | &#10003; |
+| USB Storage    | USB HDD seagate 2T                      |              | &#10003; |
+| USB Storage    | USB DM 3.0 32G                          |              | &#10003; |
+| USB Storage    | USB SAMSUNG 3.1 128G                    |              | &#10003; |
+| USB Storage    | USB Kingston 128G                       |              | &#10003; |
+| USB Storage    | USB NETAC 3.0 64g                       |              | &#10003; |
+| USB WIFI       | USB WIFI EP-N8508GS                     | &#10003;     | &#10003; |
+| USB WIFI       | USB WIFI EW-7811Un                      | &#10003;     | &#10003; |
+| USB WIFI       | USB WIFI\_EP-MS1558                     | &#10003;     | &#10003; |
 
 ### **Support of Arduino:**
 
