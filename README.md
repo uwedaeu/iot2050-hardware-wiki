@@ -2,7 +2,7 @@
 
 ## **List of working devices:**
 
-The following tables show the support of different hardware at the different interfaces. The units were tested differently for PG1 and PG2:
+The following tables show the support of different hardware at the different interfaces:
 
 - PG1:
   - Basic: FS:01
