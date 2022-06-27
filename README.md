@@ -59,5 +59,5 @@ The following tables show the support of different hardware at the different int
 | 7392:7811 | USB WIFI       | Edimax EW-7811UN V1        | &#10003;   | &#10003;   |
 |           | USB WIFI       | Edimax EW-7811UN V2        | X          | X          |
 |           | USB WIFI       | Edup EP-MS1558             | &#10003;   | &#10003;   |
-|           | USB WIFI       | EDUP EP-N8508GS            | &#10003;   | &#10003;   |
+|           | USB WIFI       | Edup EP-N8508GS            | &#10003;   | &#10003;   |
 | 2001:331b | USB WIFI       | N150 Pico USB Wifi Adapter | X          | X          |
