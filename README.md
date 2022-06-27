@@ -38,21 +38,21 @@ The following tables show the support of different hardware at the different int
 
 ### **Support of USB:**
 
-| Device ID | Hardware       | Device                     | PG1        | PG2        |
-| --------- | -------------- | -------------------------- | ---------- | ---------- |
-|           | USB CD/DVD     | ASUS SDR-08B1-U            | &#10003;   | &#10003;   |
-| 0a12:0001 | USB BT         | CSR4.0 CSR8510             | &#10003;   | &#10003;   |
-|           | USB BT         | CSR4.0 Dongle              | not tested | &#10003;   |
-| 7392:7811 | USB WIFI       | Edimax EW-7811UN V1        | &#10003;   | &#10003;   |
-|           | USB WIFI       | Edimax EW-7811UN V2        | X          | X          |
-|           | USB WIFI       | Edup EP-MS1558             | &#10003;   | &#10003;   |
-|           | USB WIFI       | EDUP EP-N8508GS            | &#10003;   | &#10003;   |
-| 2001:331b | USB WIFI       | N150 Pico USB Wifi Adapter | not tested | not tested |
-|           | USB BT         | ORICO BT4.0                | &#10003;   |            |
-|           | USB BT         | ORICO BTA-403              | &#10003;   |            |
-| 0a12:0001 | USB BT         | ORICO CSR8510              | &#10003;   | &#10003;   |
-|           | USB BT         | PHILIPS CSR8510            | not tested |            |
-| 047f:c025 | USB Sound Card | Plantronics 300DA          | &#10003;   | &#10003;   |
-| 0a12:0001 | USB BT         | SAMZHE SZ-666 CSR8510      | &#10003;   | &#10003;   |
-|           | USB Adapter    | USB -> RJ45 adapter        | not tested | &#10003;   |
-| 0403:6015 | USB Adapter    | USB -> RS232 adapter       | &#10003;   | &#10003;   |
+| Device ID | Hardware       | Device                     | PG1        | PG2      |
+| --------- | -------------- | -------------------------- | ---------- | -------- |
+|           | USB CD/DVD     | ASUS SDR-08B1-U            | &#10003;   | &#10003; |
+| 0a12:0001 | USB BT         | CSR4.0 CSR8510             | &#10003;   | &#10003; |
+|           | USB BT         | CSR4.0 Dongle              | not tested | &#10003; |
+| 7392:7811 | USB WIFI       | Edimax EW-7811UN V1        | &#10003;   | &#10003; |
+|           | USB WIFI       | Edimax EW-7811UN V2        | X          | X        |
+|           | USB WIFI       | Edup EP-MS1558             | &#10003;   | &#10003; |
+|           | USB WIFI       | EDUP EP-N8508GS            | &#10003;   | &#10003; |
+| 2001:331b | USB WIFI       | N150 Pico USB Wifi Adapter | X          | X        |
+|           | USB BT         | ORICO BT4.0                | &#10003;   |          |
+|           | USB BT         | ORICO BTA-403              | &#10003;   |          |
+| 0a12:0001 | USB BT         | ORICO CSR8510              | &#10003;   | &#10003; |
+|           | USB BT         | PHILIPS CSR8510            | not tested |          |
+| 047f:c025 | USB Sound Card | Plantronics 300DA          | &#10003;   | &#10003; |
+| 0a12:0001 | USB BT         | SAMZHE SZ-666 CSR8510      | &#10003;   | &#10003; |
+|           | USB Adapter    | USB -> RJ45 adapter        | not tested | &#10003; |
+| 0403:6015 | USB Adapter    | USB -> RS232 adapter       | &#10003;   | &#10003; |
