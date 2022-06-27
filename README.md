@@ -51,7 +51,6 @@ The following tables show the support of different hardware at the different int
 |           | USB BT         | ORICO BT4.0                | &#10003;   |          |
 |           | USB BT         | ORICO BTA-403              | &#10003;   |          |
 | 0a12:0001 | USB BT         | ORICO CSR8510              | &#10003;   | &#10003; |
-|           | USB BT         | PHILIPS CSR8510            | not tested |          |
 | 047f:c025 | USB Sound Card | Plantronics 300DA          | &#10003;   | &#10003; |
 | 0a12:0001 | USB BT         | SAMZHE SZ-666 CSR8510      | &#10003;   | &#10003; |
 |           | USB Adapter    | USB -> RJ45 adapter        | not tested | &#10003; |
