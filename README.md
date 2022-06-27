@@ -15,26 +15,35 @@ The following tables show the support of different hardware at the different int
 
 | Device ID | Hardware | Device                     | PG1      | PG2         |
 | --------- | -------- | -------------------------- | -------- | ----------- |
-|           | ???      | SSD\_LEXIANGJIA            | &#10003; |  not tested |
-|           | ???      | Adapter\_mPCIeToUSB\_Wifi  | &#10003; | &#10003;    |
 |           | ???      | Adapter\_mPCIeToUSB\_Stick | &#10003; | &#10003;    |
-|           | 3G/4G    | Huawei ME909S-821          | &#10003; | &#10003;    |
-|           | 3G/4G    | Telit HE910-D              | &#10003; | &#10003;    |
-|           | 3G/4G    | Qualcomm MC7304            | &#10003; | &#10003;    |
-|           | 3G/4G    | Huawei 909S-120 V2         | &#10003; | &#10003;    |
-|           | 3G/4G    | Sierra MC7430              |          | X           |
-|           | 3G/4G    | ZTE FDD LTE ME3760 V2      | X        | not tested  |
-|           | 3G/4G    | Quectel EC20               | &#10003; | &#10003;    |
-|           | 3G/4G    | Telit LE910-NA1            | &#10003; | not tested  |
-|           | WIFI     | BCM9432 (Chipset)          | &#10003; | &#10003;    |
-|           | WIFI     | BCM4329 (Chipset)          | &#10003; | &#10003;    |
-|           | WIFI     | Intel N135                 | &#10003; | &#10003;    |
+|           | ???      | Adapter\_mPCIeToUSB\_Wifi  | &#10003; | &#10003;    |
 |           | WIFI     | Atheros AR9462             | &#10003; | &#10003;    |
+|           | WIFI     | BCM4329 (Chipset)          | &#10003; | &#10003;    |
+|           | WIFI     | BCM9432 (Chipset)          | &#10003; | &#10003;    |
+|           | 3G/4G    | Huawei 909S-120 V2         | &#10003; | &#10003;    |
+|           | 3G/4G    | Huawei ME909s-120          | &#10003; | not tested  |
+|           | 3G/4G    | Huawei ME909S-821          | &#10003; | &#10003;    |
 |           | WIFI     | Intel AC 6235              | &#10003; | &#10003;    |
 |           | WIFI     | Intel AC 7260              | &#10003; | &#10003;    |
 |           | WIFI     | Intel AC9260 NGW M.2       | X        | &#10003;    |
 |           | WIFI     | Intel AX200NGW M.2         |          | &#10003;    |
 |           | WIFI     | Intel AX210NGW M.2         |          | X           |
+|           | WIFI     | Intel N135                 | &#10003; | &#10003;    |
+|           | 3G/4G    | Qualcomm MC7304            | &#10003; | &#10003;    |
+|           | 3G/4G    | Quecktel EG25-G            | &#10003; | not tested  |
+|           | 3G/4G    | Quectel EC20               | &#10003; | &#10003;    |
+|           | 3G/4G    | Sierra MC7430              |          | X           |
+|           | 3G/4G    | SIMCom SIM7600E-H          | &#10003; | not tested  |
+|           | 3G/4G    | Simcom SIM7600G-H R2       | &#10003; | not tested  |
+|           | 3G/4G    | Simcom SIM7600SA-H         | &#10003; | not tested  |
+|           | ???      | SSD\_LEXIANGJIA            | &#10003; |  not tested |
+|           | 3G/4G    | Telit HE910-D              | &#10003; | &#10003;    |
+|           | 3G/4G    | Telit LE910C1-WWX          | X        | not tested  |
+|           | 3G/4G    | Telit LE910C4-EU           | X        | not tested  |
+|           | 3G/4G    | Telit LE910C4-WWX          | X        | not tested  |
+|           | 3G/4G    | Telit LE910-EU V2          | &#10003; | not tested  |
+|           | 3G/4G    | Telit LE910-NA1            | &#10003; | not tested  |
+|           | 3G/4G    | ZTE FDD LTE ME3760 V2      | X        | not tested  |
 
 ### **Support of USB:**
 
